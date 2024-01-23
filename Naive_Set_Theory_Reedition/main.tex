@@ -1,5 +1,18 @@
-\documentclass[fontsize=12pt,b5paper,
-pagesize=auto]{book}
+%---- kindle resize -- %
+
+%\documentclass[fontsize=12pt,b5paper,
+%pagesize=auto]{book}
+\documentclass[11pt]{book}  
+\usepackage[papersize={108mm,144mm},margin=2mm]{geometry}  
+\sloppy 
+\pagestyle{empty} 
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%---- create the axioms enviroment -%
+
+
+
 
 \usepackage{titlesec}
 \titlespacing*{\chapter}{0 pt}{-10.5\baselineskip}{8 pt}
@@ -21,8 +34,6 @@ pagesize=auto]{book}
 \frenchspacing
 \usepackage{csquotes}
 \MakeOuterQuote{"}
-
-%---- create the axioms enviroment -%
 
 \newtheoremstyle{axiom} % name
     {\topsep}                    % Space above
